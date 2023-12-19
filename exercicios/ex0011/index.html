@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens flexíveis</title>
+</head>
+<body>
+    <h1>imagem flexível</h1>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="imagem flexível">
+    </picture>
+    <H2>Essas fotos se adequam ao navegador</H2>
+    <picture>
+        <source media="(max-width:700px )" srcset="imagens/foto-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px )" srcset="imagens/foto-m.jpg" type="image/jpg">
+        <img src="imagens/foto-g.jpg" alt="">
+    </picture>
+    <h1>agora vamos implementar audios</h1>
+    <h2>coloquei uma musica de fundo bem vibes</h2>
+    <audio preload="metadata"  controls>
+        <source src="midia/lofi-chill-medium-version-159456.mp3" type="audio/mpeg">
+    </audio>
+   
+
+    
+</body>
+</html>

@@ -1,0 +1,128 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'gameria';
+    src: url(GAMERIA.ttf);
+    font-family:sans-serif;
+}
+*{
+    margin: 0px;
+}
+:root{
+    --cor0:#112C36;
+    --cor1:#0D5269;
+    --cor2:#6BB6CF;
+    --cor3:#B8EDFF;
+    --cor4:#E0F7FF;
+
+    --fonte-destaque:'gameria';
+    --fonte-padrão:sans-serif;
+}
+body{
+    background-color:var(--cor1);
+}
+header{
+    
+
+}
+nav{
+  background-color:var(--cor1);
+  padding: 20px;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    margin:7px; 
+    font-family: var(--fonte-padrão);
+    font-weight:lighter;
+}
+nav > a:hover{
+    background-color: var(--cor0);
+    color:var(--cor3);
+    padding: 20px;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+main{
+   max-width: 1000px;
+   min-width: 320px;
+   display: block;
+   margin: auto;
+   padding-bottom: 5px;
+   background-color: white;
+   box-shadow:0px 0px 10px #0c1f25 ;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
+
+}
+
+.cabeçalho{
+   width: 100%;
+}
+h1,h2{
+   font-family:var(--fonte-destaque);
+   text-align: center;
+   margin: 20px;
+}
+p{
+    font-family: var(--fonte-padrão);
+    font-weight:normal;
+    text-align: justify;
+    margin: 10px;
+ 
+}
+strong{
+    font-weight:bolder;
+    font-family: var(--fonte-destaque);
+    font-size: 18px;
+    font-weight: lighter;
+}
+.video{
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+    margin-bottom:50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom:50.8%;
+    box-shadow: 0px 0px 15px var(--cor0);
+    position: relative;
+}
+iframe{
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:100%;
+   
+   
+    
+}
+.dicas{
+    margin: auto;
+    margin-bottom: 75px;
+    box-shadow: 0px 0px 15px var(--cor0);
+    max-width: 700px;
+    border-radius: 20px 0px 20px 0px;
+    padding: 20px;
+}
+.personagens{
+   display: block;
+   margin: auto;
+}
+li{
+   text-align: center;
+   display:block;
+   margin: 10px;
+   font-family: var(--fonte-destaque);
+   font-weight:lighter;
+}
+footer{
+    background-color:var(--cor0);
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+}
+footer a{
+    padding: 5px;
+
+}
