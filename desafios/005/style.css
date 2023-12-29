@@ -52,11 +52,25 @@ section{
     background-color: rgb(69, 69, 173);
     color: white;
     font-family: var(--font2);
+    height:250px;
 }
 .imagem > p{
     background-color: rgb(37, 35, 35);
     display: inline-block;
     padding: 8px;
+}
+#imagem1{
+    background-image: url(../005/imagens/baco.jpg);
+    background-position: center center;
+}
+#imagem2{
+    background-image: url(../005/imagens/baco2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#imagem3{
+    background-image: url(../005/imagens/baco3.jpg);
+    background-position: right bottom;
 }
 .normal{
     background-color: rgb(83, 75, 75);
