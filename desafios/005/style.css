@@ -49,32 +49,41 @@ section{
     
 }
 .imagem{
-    background-color: rgb(69, 69, 173);
-    color: white;
+    background-color:white;
+    color:white;
     font-family: var(--font2);
-    height:250px;
+    box-shadow: inset 5px 6px 20px 0px black;
+    background-attachment: fixed;
+
+    
 }
 .imagem > p{
-    background-color: rgb(37, 35, 35);
+    background-color: rgba(37, 35, 35, 0.507);
     display: inline-block;
     padding: 8px;
+    margin-top: 10px;
 }
 #imagem1{
-    background-image: url(../005/imagens/baco.jpg);
+    background-image: url(../005/imagens/baco3.jpg);
     background-position: center center;
+    background-size: cover;
 }
 #imagem2{
     background-image: url(../005/imagens/baco2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
+    background-size: cover;
+
 }
 #imagem3{
-    background-image: url(../005/imagens/baco3.jpg);
-    background-position: right bottom;
+    background-image: url(../005/imagens/baco.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .normal{
-    background-color: rgb(83, 75, 75);
-    color: white;
+    background-color:white;
+    color:black;
     font-family: var(--font2);
 }
 footer{
