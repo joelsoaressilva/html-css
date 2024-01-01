@@ -35,14 +35,16 @@ header{
 }
 header > h1{
     padding-top: 50px;
+    font-size: 3em;
     font-variant: small-caps;
+   
 }
 header > h2{
     font-variant: small-caps;
     padding-bottom: 50px ;
 }
 section{
-    padding-bottom: 10vh;
+    padding-bottom: 7vh;
     padding-left: 30px;
     line-height: 2em;
     font-size:3vw;
@@ -54,6 +56,8 @@ section{
     font-family: var(--font2);
     box-shadow: inset 5px 6px 20px 0px black;
     background-attachment: fixed;
+    padding-bottom: 50px;
+    padding-top: 50px;
 
     
 }
@@ -69,14 +73,14 @@ section{
     background-size: cover;
 }
 #imagem2{
-    background-image: url(../005/imagens/baco2.jpg);
+    background-image: url(../005/imagens/baco.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
 
 }
 #imagem3{
-    background-image: url(../005/imagens/baco.jpg);
+    background-image: url(../005/imagens/baco2.jpg);
     background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
