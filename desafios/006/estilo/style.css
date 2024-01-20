@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'gameria';
+    src: url(GAMERIA.ttf);
+    font-family:sans-serif;
+}
+:root{
+    --cor0:#112C36;
+    --cor1:#0D5269;
+    --cor2:#6BB6CF;
+    --cor3:#B8EDFF;
+    --cor4:#E0F7FF;
+    --cor5:#F39B0B;
+    --cor6:#FBC10F;
+
+    --fonte-destaque:'gameria';
+    --fonte-padrão:sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    height:92vh;
+    
+
+}
+div{
+    margin: auto;
+    min-width: 200px;
+    max-width: 400px;
+    height: 500px;
+    margin-top: 40px;
+    border: solid 2px var(--cor6);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px  15px var(--cor0);
+    display: flex;
+    flex-direction: column;
+    background-color:var(--cor1);
+}
+
+h2{
+    padding-top: 30px;
+    text-align: justify;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-weight:lighter;
+    color:var(--cor6);
+}
+img{
+    display: block;
+    margin: auto;
+    padding-top: 40px;
+
+}
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+}
+a{
+    color: var(--cor6);
+    padding-top: 20px;
+    font-family: var(--fonte-padrão);
+    font-weight: bolder;
+    font-size: 17px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+a:hover{
+    color:#112C36;
+    text-decoration: underline;
+}
