@@ -4,6 +4,19 @@
     src: url(GAMERIA.ttf);
     font-family:sans-serif;
 }
+
+@keyframes personas {
+    0%{
+        transform: translateY(-0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(-0px);
+    }
+    
+}
 *{
     margin: 0px;
 }
@@ -108,6 +121,12 @@ iframe{
 .personagens{
    display: block;
    margin: auto;
+
+   animation-name: personas;
+   transform: translateY(-0px);
+   animation-duration: 3s;
+   animation-iteration-count: infinite;
+   anima
 }
 li{
    text-align: center;
